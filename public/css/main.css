@@ -1,0 +1,201 @@
+.star_section {
+    padding-top: 0.8rem;
+}
+
+.redeem_button img {
+    width: 1.5vw;
+}
+
+.graph_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+
+.bar {
+    width: 3.5rem;
+    height: 0.4rem;
+    background-color: yellow;
+    border: 0.01em rgba(0, 0, 0, 0.3) solid;
+}
+
+.circle {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 0.01em rgba(0, 0, 0, 0.3) solid;
+}
+
+.number_section {
+    display: flex;
+    align-items: center;
+}
+
+.clear{
+    background-color: white;
+}
+
+.number {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    background-color: white;
+    font-size: 0.8rem;
+}
+
+.graph_section {
+    display: flex;
+    align-items: center;
+}
+
+.star p {
+    font-size: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.star img {
+    width: 2rem;
+}
+
+.button_section {
+    margin-top: 2.5vw;
+}
+
+.balance, .star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.balance {
+    flex-direction: column;
+}
+
+.balance_word {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.button_section, .redeem_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redeem_button {
+    padding: 0.4rem 1.2rem;
+    border-radius: 5rem;
+    background-color: black;
+    border: 0.1rem black solid;
+    color: white;
+}
+
+.redeem_button:active {
+    position: relative;
+    top: 0.1rem;
+}
+
+.redeem_button p {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+.redeem_button img {
+    width: 1rem;
+}
+
+.news_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+}
+
+.news_section img {
+    width: 96%;
+    height: 12rem;
+    border-radius: 10px;
+}
+
+.news_section img:hover {
+    cursor: pointer;
+}
+
+.promo_section {
+    max-width: 96%;
+    margin: 0 auto;
+    margin-top: 3vw;
+}
+
+.promo_header {
+    font-size: 1.3rem;
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.promo {
+    border-top: 0.1rem rgba(0, 0, 0, 0.2) solid;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.promo a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    /* justify-content: center; */
+}
+
+.promo_image_section {
+    width: 7rem;
+    margin-right: 1rem;
+}
+
+.promo_image_section img {
+    border-radius: 1rem;
+    height: 7rem;
+    width: 7rem;
+}
+
+.promo_words_section {
+    margin-top: 0.5rem;
+}
+
+.promo_name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+
+.promo_desc {
+    font-size: 0.82rem;
+}
+
+.shop_button {
+    padding: 0.6rem 1rem;
+    background-color: #BF9742;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    color: white;
+    font-size: 0.9rem;
+    position: fixed;
+    right: 1rem;
+    bottom: 2rem;
+    text-decoration: none;
+}
+
+.shop_button:active {
+    bottom: 1.8rem;
+}
+
+.shop_button img {
+    width: 1rem;
+    margin-right: 0.3rem;
+}

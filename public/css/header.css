@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header {
+    padding: 0.7rem 1.5rem;
+    background-color: #EEC373;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
+.upper_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greet {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.level {
+    font-size: 1.3rem;
+    padding: 0.4rem 0.8rem;
+    background-color: white;
+    border-radius: 5rem;
+}
+
+.lower_section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.home_nav, .transaction_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.lower_section img {
+    width: 1rem;
+    margin-right: 0.3rem;
+}

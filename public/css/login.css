@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+.login_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: coral;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_section img {
+    width: 12rem;
+}
+
+.email_section, .password_section {
+    margin-bottom: 1rem;
+}
+
+.input_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 0.5rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.input_section img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.login_image_section {
+    background-color: coral;
+    padding: 0.2rem;
+    margin-right: 0.5rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_section input {
+    border: none;
+    padding: 0.4rem 0.4rem;
+    background-color: white;
+    outline: none;
+}
+
+.login_button_section {
+    text-decoration: none;
+    margin-top: 2rem;
+    padding: 0.6rem 2rem;
+    background-color: orange;
+    font-size: 1.3rem;
+    color: white;
+    border: 0.1rem black solid;
+    border-radius: 5rem;
+}
